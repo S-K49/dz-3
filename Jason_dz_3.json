@@ -1,0 +1,77 @@
+{
+	"Students": {
+		"name": {
+			"firstname": ["Student 1", "Student 2"],
+			"surname": ["Surname 1", "Surname 2"]
+		},
+		"location": {
+			"Country": ["Ukraine", "Poland"],
+			"City": ["City 1", "City 2"],
+			"Street": ["Street 1", "Street 2 "],
+			"House": [13, 17],
+			"Zip code": [47832, 23894]
+		},
+		"age": [18, 20],
+		"Education": {
+			"University": ["University 1", "University 2"],
+			"Faculty": ["Faculty 1", "Faculty 2"],
+			"Courses": {
+				"Student 1": [
+					"Course 1",
+					"Course 2",
+					"Course 3"
+				],
+				"Student 2": [
+					"Course 4",
+					"Course 5",
+					"Course 6"
+				]
+			}
+		},
+		"isAccepted": [true, true]
+	}
+}
+
+{
+	"Students": [{
+			"name": {
+				"firstname": "Student 1",
+				"surname": "Surname 1"
+			},
+			"location": {
+				"Country": "Ukraine",
+				"City": "City 1",
+				"Street": "Street 1",
+				"House": 13,
+				"Zip code": "47832"
+			},
+			"age": 18,
+			"Education": {
+				"University": "University 1",
+				"Faculty": "Faculty 1",
+				"Courses": ["Course 1", "Course 2", "Course 3"]
+			},
+			"isAccepted": true
+		},
+		{
+			"name": {
+				"firstname": "Student 2",
+				"surname": "Surname 2"
+			},
+			"location": {
+				"Country": "Poland",
+				"City": "City 2",
+				"Street": "Street 2",
+				"House": 17,
+				"Zip code": null
+			},
+			"age": 20,
+			"Education": {
+				"University": "University 1",
+				"Faculty": "Faculty 1",
+				"Courses": ["Course 4", "Course 5", "Course 6"]
+			},
+			"isAccepted": false
+		}
+	]
+}

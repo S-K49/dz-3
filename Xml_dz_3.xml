@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student>
+<student1 isAccepted="true">
+<name>
+<firstname>
+Student 1
+</firstname>
+<lastname>
+Lastname 1
+</lastname>
+</name>
+<location>
+<country>
+Ukraine
+</country>
+<city>
+City 1
+</city>
+<street>
+Street 1
+</street>
+<house>13
+</house>
+<postcode>
+47832
+</postcode>
+</location>
+<age>18</age>
+<education>
+<university>University 1</university>
+<faculty>Faculty 1</faculty>
+<courses>
+<course>Course 1</course>
+<course>Course 2</course>
+<course>Course 3</course>
+</courses>
+</education>
+</student1>
+<student2 isAccepted="false">
+<!--Або тип boolean ще у такому вигляді-->
+<attribute name="isAccepted" value="false" type="Boolean" />
+<!-- -->
+<name>
+<firstname>
+Student 2
+</firstname>
+<lastname>
+Lastname 2
+</lastname>
+</name>
+<location>
+<country>
+Poland
+</country>
+<city>
+City 2
+</city>
+<street>
+Street 2
+</street>
+<house>17
+</house>
+<postcode>
+23894
+</postcode>
+</location>
+<age>20</age>
+<education>
+<university>University 2</university>
+<faculty>Faculty 3</faculty>
+<courses>
+<course>Course 41</course>
+<course>Course 5</course>
+<course>Course 6</course>
+</courses>
+</education>
+</student2>
+</student>
+
