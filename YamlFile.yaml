@@ -1,0 +1,16 @@
+student:
+ name: 
+  firstname: [Student1, Student2]
+  lastname: 
+   -"Lastname 1"
+   -"Lastname 2"
+ location:
+  country: [Ukraine, Poland]
+  city: [City 1, City 2]
+  street: [Street 1, Street 2]
+  house: [15, 17]
+  postcode: [4543, 23894]
+ age: [20, 18]
+ education: |
+   -"University 1, Faculty 2, Course 1, Course 2, Course 3"
+   -"University 2, Faculty 3, Course 4, Course 5, Course 6"
