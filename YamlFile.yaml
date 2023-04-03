@@ -1,0 +1,61 @@
+// Variant 1
+
+Students:
+- name: 
+   firstname: Student1
+   lastname: Lastname 1
+  location:
+   country: Ukraine
+   city: City 1
+   street: Street 1
+   house: 15
+   postcode: 4543
+  age: 20
+  education: University 1, Faculty 2, Course 1, Course 2, Course 3
+- name: 
+   firstname: Student2
+   lastname: Lastname 2
+  location:
+   country:  Poland
+   city: City 2
+   street: Street 2
+   house: 17
+   postcode: 23894
+  age: 18
+  education: University 2, Faculty 3, Course 4, Course 5, Course 6
+
+// Variant 2
+
+// Чи можна створити об'єкт таким чином?
+
+Students:
+- name: 
+   firstname: Student1
+   lastname: Lastname 1
+  location:
+   country: Ukraine
+   city: City 1
+   street: Street 1
+   house: 15
+   postcode: 4543
+  age: 20
+- name: 
+   firstname: Student2
+   lastname: Lastname 2
+  location:
+   country:  Poland
+   city: City 2
+   street: Street 2
+   house: 17
+   postcode: 23894
+  age: 18
+- education: <!--Представити масивом до двох студентів-->
+   - "University 1, Faculty 2, Course 1, Course 2, Course 3"
+   - "University 2, Faculty 3, Course 4, Course 5, Course 6"
+
+<!-- Або таким чином в одну строку -->
+
+- education: |
+   "University 1, Faculty 2, Course 1, Course 2, Course 3"
+   "University 2, Faculty 3, Course 4, Course 5, Course 6"
+
