@@ -1,3 +1,5 @@
+// Variant 1
+
 {
 	"Students": {
 		"name": {
@@ -31,6 +33,10 @@
 		"isAccepted": [true, true]
 	}
 }
+
+// <!--=============================================-->
+
+// Variant 2
 
 {
 	"Students": [{
